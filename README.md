@@ -75,3 +75,8 @@ KERNEL
 Kernel is a computer program that is the core of a computer's operating system, with complete control over everything in the system. The kernel give interactions between hardware and software components.
 
 Written in :C, Assembly language
+
+BARE METAL
+
+Bare metal is a computer system without a base operating system (OS) or installed applications. It is a computer's hardware assembly, structure and components that is installed with either the firmware or basic input/output system (BIOS) software utility or no software at all.
+
