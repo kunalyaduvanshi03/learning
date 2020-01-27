@@ -80,3 +80,25 @@ BARE METAL
 
 Bare metal is a computer system without a base operating system (OS) or installed applications. It is a computer's hardware assembly, structure and components that is installed with either the firmware or basic input/output system (BIOS) software utility or no software at all.
 
+Hypervisor:- A hypervisor, also known as a virtual machine monitor, is a process that creates and runs virtual machines (VMs). A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, like memory and processing. Type 1 hypervisor : A Type 1 hypervisor runs directly on the host machine's physical hardware, and it's referred to as a bare-metal hypervisor; it doesn't have to load an underlying OS first. Type 2 hypervisors : A Type 2 hypervisor is typically installed on top of an existing OS, and it's called a hosted hypervisor because it relies on the host machine's pre-existing OS to manage calls to CPU, memory, storage and network resources.
+
+Virtual Machine :- Virtual machines are software computers that provide the same functionality as physical computers. Like physical computers, they run applications and an operating system. However, virtual machines are computer files that run on a physical computer and behave like a physical computer. In other words, virtual machines behave as separate computer systems.
+
+Onion Routing :- Onion routing is a technique for anonymous communication over a computer network. In an onion network, messages are encapsulated in layers of encryption, analogous to layers of an onion. There is a large set of precautionary measures and best practices to make web browsing safer and more secure for users.
+
+Page Rank Algorithm :- The PageRank algorithm outputs a probability distribution used to represent the likelihood that a person randomly clicking on links will arrive at any particular page. PageRank can be calculated for collections of documents of any size. It is assumed in several research papers that the distribution is evenly divided among all documents in the collection at the beginning of the computational process. The PageRank computations require several passes, called “iterations”, through the collection to adjust approximate PageRank values to more closely reflect the theoretical true value.
+
+Namespace :- A namespace is a group of related elements that each have a unique name or identifier. There are several different types of namespaces, and each one has a specific syntax used to define the corresponding elements. Each element within a namespace has a "local name" that serves as a unique identifier.
+
+DataStore :- A datastore is a repository for storing, managing and distributing data sets on an enterprise level. It is a broad term that incorporates all types of data that is produced, stored and used by an organization. A datastore may include data from end user database applications, files or documents, or the random data property of an organization or an information system. Datastore data may be structured, unstructured or in another electronic format.
+
+Docker :- Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. Docker is a tool that is designed to benefit both developers and system administrators, making it a part of many DevOps (developers + operations) toolchains. Docker brings security to applications running in a shared environment, but containers by themselves are not an alternative to taking proper security measures.
+
+Blockchain :- it is a distributed ledger where the saved digital records are distributed across all participating nodes in the network. Each node maintains an updated copy of the ledger.a blockchain is a chain of blocks, containing time-stamped digital records. Initially described by a group of researchers in 1991, this technique was intended to timestamp digital records so that no one could backdate or tamper them. Block
+
+Every block comprises of-
+
+Data
+Hash of the block
+Hash of the previous block
+The data recorded in a block depends on the blockchain type. For example, Bitcoin Blockchain saves the details about a transaction such as a receiver, sender and number of coins. A hash of the block is similar to a fingerprint(always unique) that provides identification to the block and its contents. Once a block is created, a hash gets generated. Hash value gets changed with every change in the block. Therefore, hash values help in detecting the changes made to blocks. Containing a hash of the previous block means every block is linked to each other and creates a chain of blocks, known as “Blockchain.” Once the data has been recorded or added in a blockchain, it becomes difficult to change it.
